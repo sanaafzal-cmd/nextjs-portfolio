@@ -25,7 +25,7 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "HTML5, CSS3",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
@@ -37,6 +37,17 @@ const aboutData = [
         ],
       },
       {
+        title: "Javascript, Jquery",
+        icon: <FaCss3 />
+      },
+      {
+        title: "React JS, Next JS",
+      },
+      {
+        title: "Laravel",
+      },
+     
+      {
         title: "UI/UX Design",
         icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
@@ -46,12 +57,12 @@ const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Gold Medalist",
+        stage: "2011 - 2013",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Silver Medalist",
+        stage: "2013 - 2015",
       },
     ],
   },
@@ -59,34 +70,28 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Front End Web Developer - Upwork",
+        stage: "2021 - Present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Front End Web Developer - Fiverr",
+        stage: "2021 - Present",
       },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
+     
     ],
   },
   {
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Certification in Front End Web Development",
+        stage: "Aug 2021- Jan 2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Masters of Computer Sciences",
+        stage: "2013-2015",
       },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
+     
     ],
   },
 ];
@@ -94,10 +99,12 @@ const aboutData = [
 //components
 import { Avatar } from "../../components/Avatar";
 import { Circles } from "../../components/Circles";
-
+import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
 // framer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
+
+import Image from 'next/image'
 
 //counter
 import CountUp from "react-countup";
@@ -110,7 +117,24 @@ const About = () => {
     <div>
       {" "}
       <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
-        {/* <Circles /> 
+        {/* Circles */}
+      <div className='w-[200px] xl:w-[300px] absolute -right-16 -bottom-2 mix-blend-color-dodge animate-pulse duration-75 z-10'>
+    <Image src={'/circles.png'}
+    width={260}
+    height={200}
+    className='w-full h-full'
+    alt='' />
+  </div>
+
+  {/* Bulb */}
+  <div className="absolute -left-36 -bottom-12 rotate-12 mix-blend-color-dodge animate-pulse duration-75 z-10 w-[200px] xl:w-[260px]">
+    <Image
+    src={'/bulb.png'}
+    width={260}
+    height={200}
+    className="w-full h-full"
+    alt="" />
+  </div>
         {/* avatar img */}
         <motion.div
           variants={fadeIn("right", 0.2)}
@@ -120,6 +144,7 @@ const About = () => {
           className="hidden xl:flex absolute bottom-0 -left-[370px]"
         >
           {/* <Avatar /> */}
+          
         </motion.div>
         <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
           {/* text */}
@@ -131,8 +156,7 @@ const About = () => {
               exit="hidden"
               className="h2"
             >
-              Captivating <span className="text-accent">stories</span>birth
-              magnificent designs.
+              I design & <span className="text-accent">build</span> user interfaces.
             </motion.h2>
             <motion.p
               variants={fadeIn("right", 0.4)}
@@ -141,9 +165,9 @@ const About = () => {
               exit="hidden"
               className="max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
             >
-              3 years ago, I began freelancing as a developer. Since then, I've
+              2 years ago, I began freelancing as a front-end web developer. Since then, I've
               done remote work for agencies, consulted for startups, and
-              colaaborated on digital products for business and consumer use.
+              colaborated on digital products for business and consumer use.
             </motion.p>
             {/* counters */}
             <motion.div
@@ -157,7 +181,7 @@ const About = () => {
                 {/* experience */}
                 <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <CountUp start={0} end={10} duration={5}>
+                    <CountUp start={0} end={5} duration={5}>
                       {" "}
                     </CountUp>
                   </div>
@@ -168,7 +192,7 @@ const About = () => {
                 {/* clients */}
                 <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <CountUp start={0} end={250} duration={5}></CountUp>
+                    <CountUp start={0} end={50} duration={5}></CountUp>
                   </div>
                   <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                     Satisfied Clients
@@ -177,7 +201,7 @@ const About = () => {
                 {/* projects */}
                 <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <CountUp start={0} end={650} duration={5}></CountUp>
+                    <CountUp start={0} end={50} duration={5}></CountUp>
                   </div>
                   <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                     Finished Projects
@@ -186,7 +210,7 @@ const About = () => {
                 {/* awards */}
                 <div className="relative flex-1">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <CountUp start={0} end={8} duration={5}></CountUp>
+                    <CountUp start={0} end={3} duration={5}></CountUp>
                   </div>
                   <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                     Winning awards
@@ -224,22 +248,28 @@ const About = () => {
                     className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                   >
                     {/* title */}
-                    <div className="font-light mb-2 md:mb-0">{item.title}</div>
                     <div className="hidden md:flex">-</div>
+                    <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                    
                     <div>{item.stage}</div>
+                  
+                  
                     <div className="flex gap-x-4">
                       {/* icons */}
-                      {item.icons?.map((icon, itemIndex) => {
-                        // return <div>{icon}</div>
-                      })}
+                     
+                      {/* {item.icons?.map((icon, itemIndex) => {
+                          return <div key={itemIndex}>{icon}</div>
+                      })} */}
                     </div>
                   </div>
                 );
               })}
             </div>
           </motion.div>
+          
         </div>
       </div>{" "}
+     
     </div>
   );
 };

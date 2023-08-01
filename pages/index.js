@@ -1,14 +1,17 @@
 //next image
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 //components
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
+import FloatingWhatsAppIcon from '../components/FloatingWhatsappIcon';
 
 //framer motion
 import {motion} from 'framer-motion';
+import {BsArrowRight} from 'react-icons/bs'
 
 //variants
 import {fadeIn} from '../variants'
@@ -32,16 +35,8 @@ const Home = () => {
         exit='hidden'  className='h1'>Front End <br /> <span className='text-accent'>Web Developer</span> </motion.h1>
        
         {/* button */}
-        <div className='flex justify-center xl:hidden relative'>
-          <ProjectsBtn />
-        </div>
-        <motion.div variants={fadeIn('down', 0.4)}
-        initial='hidden'
-        animate='show'
-        exit='hidden'
-        className='hidden xl:flex'>
-        <ProjectsBtn />
-        </motion.div>
+       <ProjectsBtn />
+      
       </div>
     </div>
 {/* Image */}
@@ -56,9 +51,11 @@ const Home = () => {
         animate='show'
         exit='hidden'
         transition={{duration:1, ease: 'easeInOut'}}
-       className='w-full h-full max-w-[600px] max-h-[500px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]'>
+       className='border-solid border-4 border-rose-600/50 rounded-full w-full h-full max-w-[400px] max-h-[400px] absolute lg:bottom-20 lg:right-[15%]'>
       <Avatar />
     </motion.div>
+
+    
 
     </div>
   </div>;
