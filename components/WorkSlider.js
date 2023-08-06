@@ -2,6 +2,7 @@
 import {RxCrop, RxPencil2, RxDesktop, RxReader, RxRocket, RxArrowTopRight} from 'react-icons/rx'
 //import swiper react components
 import {Swiper, SwiperSlide} from 'swiper/react'
+import Link from 'next/link'
 
 //import swiper styles
 // import 'swiper/swiper.min.css';
@@ -30,18 +31,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link : 'https://greek-all.netlify.app/'
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link:'https://sanaafzal-cmd.github.io/Portal-Website/'
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link:'https://writtenbyjackie.com/'
         },
       ],
     },
@@ -50,10 +55,12 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link:'https://sanaafzal-cmd.github.io/Weather-Application/'
         },
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link: ''
         },
         {
           title: 'title',
@@ -85,6 +92,7 @@ const WorkSlider = () => {
            <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
             {slide.images.map((image, index) => {
              return <div key={index} className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
+              <Link href='/contact'>
               <div className='flex items-center justify-center relative overflow-hidden group'>
                 {/* Image */}
                 <Image src={image.path} width={500} height={300} alt='' />
@@ -102,6 +110,7 @@ const WorkSlider = () => {
                   </div>
                 </div>
               </div>
+              </Link>
              </div>
             })}
            </div>
