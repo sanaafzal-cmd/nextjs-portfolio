@@ -5,10 +5,16 @@ import TestimonialSlider from "../../components/TestimonialSlider";
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../variants'
 
+//components
+import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
+import Circles from "../../components/Circles";
+
 
 const Testimonials = () => {
   return(
     <div className="h-full bg-primary/30 py-32 text-center">
+      <FloatingWhatsAppIcon />
+      <Circles />
       <div className="container mx-auto h- flex flex-col justify-center">
         <motion.h2 variants={fadeIn('up', 0.2)}
         initial='hidden'
@@ -24,6 +30,7 @@ const Testimonials = () => {
           <TestimonialSlider />
         </motion.div>
       </div>
+     
     </div>
 
   );

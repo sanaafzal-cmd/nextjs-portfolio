@@ -30,22 +30,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/thumb-1_1280x720.png',
           link : 'https://greek-all.netlify.app/'
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/thumb-2_1280x720.png',
           link:'https://sanaafzal-cmd.github.io/Portal-Website/'
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/thumb-3_1280x720.png',
           link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb-4_1280x720.png',
           link:'https://writtenbyjackie.com/'
         },
       ],
@@ -54,23 +54,23 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
-          link:'https://sanaafzal-cmd.github.io/Weather-Application/'
+          path: '/thumb-5_1280x720.png',
+          link:'https://mughalwire.com/'
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
-          link: ''
+          path: '/thumb-6_1280x720.png',
+          link: 'https://sanaafzal-cmd.github.io/Weather-Application/'
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
-          link: ''
+          path: '/thumb-7_1280x720.png',
+          link: 'https://alquran-academy.000webhostapp.com/'
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
-          link:''
+          path: '/thumb-8_1280x720.png',
+          link:'https://sanaafzal-cmd.github.io/Trust-Hosptial/'
         },
       ],
     },

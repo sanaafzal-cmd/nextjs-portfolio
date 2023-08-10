@@ -9,7 +9,7 @@ const FloatingWhatsAppIcon = () => {
   };
 
   return (
-    <div
+    <div className='z-50'
       style={{
         position: 'fixed',
         bottom: '20px',
@@ -19,7 +19,7 @@ const FloatingWhatsAppIcon = () => {
         padding: '12px',
         cursor: 'pointer',
         boxShadow: '0 2px 5px rgba(0, 0, 0, 0.25)',
-        zIndex: '99999' // Optional shadow effect
+         // Optional shadow effect
       }}
       onClick={handleWhatsAppClick}
     >

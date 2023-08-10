@@ -19,6 +19,7 @@ import {fadeIn} from '../variants'
 const Home = () => {
   return (
   <div className='bg-primary/60 h-full'>
+     <FloatingWhatsAppIcon />
     
     {/* text */}
     
@@ -38,7 +39,7 @@ const Home = () => {
         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden'  className='h1'>UI/UX Designer <br /> <span className='text-accent'>Front End Web Developer</span>
+        exit='hidden'  className='h1'>Front End Web Developer <br /> <span className='text-accent'>UI/UX Designer</span>
        
          </motion.h1>
 
@@ -72,10 +73,8 @@ const Home = () => {
       <Avatar />
     </motion.div>
    
-
-    
-
     </div>
+    
   </div>
   )
 };

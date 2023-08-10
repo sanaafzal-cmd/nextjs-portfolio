@@ -49,3 +49,10 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+@media screen and (max-width: 768px) {
+  .whatsapp-icon{
+    bottom: 40px;
+
+  }
+}
+

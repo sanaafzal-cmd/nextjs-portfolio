@@ -19,6 +19,9 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
+//components
+
+
 //  about data
 const aboutData = [
   {
@@ -26,19 +29,19 @@ const aboutData = [
     info: [
       {
         title: "HTML5, CSS3",
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
-        ],
+        // icons: [
+        //   <FaHtml5 />,
+        //   <FaCss3 />,
+        //   <FaJs />,
+        //   <FaReact />,
+        //   <SiNextdotjs />,
+        //   <SiFramer />,
+        //   <FaWordpress />,
+        // ],
       },
       {
         title: "Javascript, Jquery",
-        icon: <FaCss3 />
+        // icon: <FaCss3 />
       },
       {
         title: "React JS, Next JS",
@@ -49,7 +52,7 @@ const aboutData = [
      
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        // icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
@@ -117,6 +120,7 @@ const About = () => {
     <div>
       {" "}
       <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+        <FloatingWhatsAppIcon />
         {/* Circles */}
       <div className='w-[200px] xl:w-[300px] absolute -right-16 -bottom-2 mix-blend-color-dodge animate-pulse duration-75 z-10'>
     <Image src={'/circles.png'}
@@ -165,7 +169,7 @@ const About = () => {
               exit="hidden"
               className="max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
             >
-              2 years ago, I began freelancing as a front-end web developer. Since then, I've
+              2 years ago, I began freelancing as a front-end web developer. Since then, I &apos;ve
               done remote work for agencies, consulted for startups, and
               colaborated on digital products for business and consumer use.
             </motion.p>
@@ -269,7 +273,7 @@ const About = () => {
           
         </div>
       </div>{" "}
-     
+      
     </div>
   );
 };
