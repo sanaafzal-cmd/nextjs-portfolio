@@ -1,4 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
+import {RiWhatsappFill} from 'react-icons/ri'
 
 const FloatingWhatsAppIcon = () => {
   const handleWhatsAppClick = () => {
@@ -9,18 +10,18 @@ const FloatingWhatsAppIcon = () => {
   };
 
   return (
-    <div className='z-50'
-      style={{
-        position: 'fixed',
-        bottom: '20px',
-        right: '20px',
-        backgroundColor: '#25D366', // Customize the background color
-        borderRadius: '50%',
-        padding: '12px',
-        cursor: 'pointer',
-        boxShadow: '0 2px 5px rgba(0, 0, 0, 0.25)',
-         // Optional shadow effect
-      }}
+    <div className='z-50 whatsapp-icon'
+      // style={{
+      //   position: 'fixed',
+      //   bottom: '40px',
+      //   right: '20px',
+      //   backgroundColor: '#25D366', // Customize the background color
+      //   borderRadius: '50%',
+      //   padding: '12px',
+      //   cursor: 'pointer',
+      //   boxShadow: '0 2px 5px rgba(0, 0, 0, 0.25)',
+      //    // Optional shadow effect
+      // }}
       onClick={handleWhatsAppClick}
     >
       <FaWhatsapp size={30} color="#FFFFFF" /> {/* Customize the icon size and color */}

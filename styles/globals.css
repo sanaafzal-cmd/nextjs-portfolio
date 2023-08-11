@@ -49,6 +49,18 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+.whatsapp-icon{
+  
+  position: fixed;
+         bottom: 20px;
+       right: 20px;
+       background-color: #10f664;
+        border-radius: 50%;
+        padding: 12px;
+       cursor: pointer;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
 @media screen and (max-width: 768px) {
   .whatsapp-icon{
     bottom: 40px;
