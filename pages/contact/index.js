@@ -2,7 +2,7 @@ import { useState } from 'react';
 //components
 import Circles from '/components/Circles'
 import Bulb from '../../components/Bulb';
-import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
+import FloatingWhatsAppIcon from '../../components/FloatingWhatsAppIcon';
 
 
 //icons

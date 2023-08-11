@@ -102,7 +102,7 @@ const aboutData = [
 //components
 import { Avatar } from "../../components/Avatar";
 import { Circles } from "../../components/Circles";
-import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
+import FloatingWhatsAppIcon from "../../components/FloatingWhatsAppIcon";
 // framer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
