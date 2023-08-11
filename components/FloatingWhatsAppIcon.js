@@ -24,7 +24,7 @@ const FloatingWhatsAppIcon = () => {
       // }}
       onClick={handleWhatsAppClick}
     >
-      <FaWhatsapp size={30} color="#FFFFFF" /> {/* Customize the icon size and color */}
+      <FaWhatsapp color="#FFFFFF" /> {/* Customize the icon size and color */}
     </div>
   );
 };

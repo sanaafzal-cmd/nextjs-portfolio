@@ -53,17 +53,20 @@
   
   position: fixed;
          bottom: 20px;
-       right: 20px;
-       background-color: #10f664;
+       right: 31px;
+       background-color: #25D366;
         border-radius: 50%;
         padding: 12px;
        cursor: pointer;
-       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+       box-shadow: 0 2px 5px rgba(1, 1, 1, 1);
+       font-size:35px;
 }
 
 @media screen and (max-width: 768px) {
   .whatsapp-icon{
-    bottom: 80px;
+    bottom: 93px;
+    font-size: 25px;
+    right:20px;
 
   }
 }
