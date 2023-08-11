@@ -36,7 +36,7 @@ const serviceData = [
 import WorkSlider from '../../components/WorkSlider'
 import Bulb from '../../components/Bulb'
 import Circles from '../../components/Circles'
-import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
+import FloatingWhatsAppIcon from '../../components/FloatingWhatsAppIcon';
 
 //framer motion
 import {motion} from 'framer-motion'

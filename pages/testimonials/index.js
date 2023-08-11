@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../../variants'
 
 //components
-import FloatingWhatsAppIcon from "../../components/FloatingWhatsappIcon";
+import FloatingWhatsAppIcon from "../../components/FloatingWhatsAppIcon";
 import Circles from "../../components/Circles";
 
 

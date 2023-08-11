@@ -1,8 +1,7 @@
 //icons
 import {RxCrop, RxPencil2, RxDesktop, RxReader, RxRocket} from 'react-icons/rx'
 
-//components
-import FloatingWhatsAppIcon from '../../components/FloatingWhatsappIcon';
+
 
 // service data
 const serviceData = [
@@ -37,6 +36,7 @@ const serviceData = [
 import ServiceSlider from '../../components/ServiceSlider'
 import Bulb from '../../components/Bulb'
 import Circles from '../../components/Circles'
+import FloatingWhatsAppIcon from '../../components/FloatingWhatsAppIcon';
 
 //framer motion
 import {motion} from 'framer-motion'

@@ -7,7 +7,7 @@ import Link from 'next/link'
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
-import FloatingWhatsAppIcon from '../components/FloatingWhatsappIcon';
+import FloatingWhatsAppIcon from '../components/FloatingWhatsAppIcon';
 
 //framer motion
 import {motion} from 'framer-motion';
@@ -39,7 +39,7 @@ const Home = () => {
         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden'  className='h1'>Front End Web Developer <br /> <span className='text-accent'>UI/UX Designer</span>
+        exit='hidden'  className='h1'>Front End Web Developer <br /> <span className='text-accent'>WordPress Developer</span>
        
          </motion.h1>
 
