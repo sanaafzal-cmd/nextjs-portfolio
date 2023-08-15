@@ -40,7 +40,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb-3_1280x720.png',
+          path: '/landing-page.svg',
           link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
         {
