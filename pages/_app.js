@@ -18,10 +18,8 @@ function MyApp({ Component, pageProps }) {
   return(
     <Layout>
        <Head>
-        {/* Other head elements */}
-        <title>Sana Afzal</title>
+        <title>Sana Afzal - Web Developer</title>
         <link rel="icon" href="/favicon.png" /> 
-        {/* Adjust the path if necessary */}
        
       </Head>
       <AnimatePresence mode='wait'>
