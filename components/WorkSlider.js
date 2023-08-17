@@ -30,22 +30,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/greek-all.svg',
+          path: '/greek-all.png',
           link : 'https://greek-all.netlify.app/'
         },
         {
           title: 'title',
-          path: '/portal-website.svg',
+          path: '/portal-website.png',
           link:'https://sanaafzal-cmd.github.io/Portal-Website/'
         },
         {
           title: 'title',
-          path: '/landing-page.svg',
+          path: '/landing-page.png',
           link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
         {
           title: 'title',
-          path: '/weather.svg',
+          path: '/weather.png',
           link: 'https://sanaafzal-cmd.github.io/Weather-Application/',
           
         },
@@ -55,24 +55,24 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/jackie.svg',
+          path: '/jackie.png',
           link:'https://writtenbyjackie.com/',
           
         },
         {
           title: 'title',
-          path: '/task-tracker.svg',
+          path: '/task-tracker.png',
           link: 'https://task-tracker.netlify.app/'
         },
         {
           title: 'title',
-          path: '/mughal.svg',
+          path: '/mughal.png',
           link:'https://mughalwire.com/'
           
         },
         {
           title: 'title',
-          path: '/QuranAcademy.svg',
+          path: '/QuranAcademy.png',
           link: 'https://alquran-academy.000webhostapp.com/'
           
         },
