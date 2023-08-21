@@ -29,7 +29,7 @@ const testimonialData = [
     name: 'Jackie Whetzel',
     position: 'Customer',
     message:
-      '"Sana was incredibly professional and creative during the entire process. She did an amazing job building a custom website for my freelance writing business. She was highly responsive, quick to correct any changes I wanted and went above and beyond building this from scratch. I would give her a 5 out of 5 rating and will most definitely hire her again!! Highly recommend!!!"',
+      '"Sana was incredibly professional and creative during the entire process. She did an amazing job building a custom website for my freelance writing business. She was highly responsive, quick to correct any changes I wanted and went above and beyond building this from scratch."',
   },
   {
     image: '/t-avt-2.png',

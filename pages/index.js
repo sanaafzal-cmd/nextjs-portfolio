@@ -39,10 +39,9 @@ const Home = () => {
         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden'  className='h1'>Front End Web Developer <br /> <span className='text-accent'>WordPress Developer</span>
-       
+        exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> <br />
          </motion.h1>
-
+<small class='text-sm text-gray-400 pb-4'>React JS, Next JS, Tailwind CSS, Bootstrap 5</small>
        
         {/* button */}
         <div className='flex justify-center xl:hidden relative'>
