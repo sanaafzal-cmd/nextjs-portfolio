@@ -41,7 +41,7 @@ const Home = () => {
         animate='show'
         exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> <br />
          </motion.h1>
-<small class='text-sm text-gray-400 pb-4'>React JS, Next JS, Tailwind CSS, Bootstrap 5</small>
+<small class='text-sm text-gray-400 pb-4'>Javascript, React JS, Next JS, Tailwind CSS, Bootstrap 5</small>
        
         {/* button */}
         <div className='flex justify-center xl:hidden relative'>
