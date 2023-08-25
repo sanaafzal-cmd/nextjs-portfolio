@@ -20,6 +20,11 @@ function MyApp({ Component, pageProps }) {
        <Head>
         <title>Sana Afzal - Web Developer</title>
         <link rel="icon" href="/favicon.png" /> 
+        <meta property="og:image" content="/profile-pic.png" />
+  <meta property="og:image:secure_url" content="/profile-pic.png" />
+  <meta property="og:image:width" content="973" />
+  <meta property="og:image:height" content="973" />
+  
        
       </Head>
       <AnimatePresence mode='wait'>

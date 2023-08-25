@@ -40,19 +40,28 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/landing-page.png',
-          link:'https://sanaafzal-cmd.github.io/app-landing-page/'
+          path: '/movie-zilla.png',
+          link : 'https://zilla-movie.netlify.app/'
         },
         {
           title: 'title',
-          path: '/weather.png',
-          link: 'https://sanaafzal-cmd.github.io/Weather-Application/',
-          
+          path: '/landing-page.png',
+          link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
       ],
     },
     {
       images: [
+        {
+          title: 'title',
+          path: '/pwa-weather.png',
+          link: 'https://weather99-app.netlify.app/' 
+        },
+        {
+          title: 'title',
+          path: '/weather.png',
+          link:'https://sanaafzal-cmd.github.io/Weather-Application/'
+        },
         {
           title: 'title',
           path: '/jackie.png',
@@ -64,6 +73,13 @@ const workSlides = {
           path: '/task-tracker.png',
           link: 'https://task-tracker.netlify.app/'
         },
+       
+      ],
+    },
+
+    {
+      images: [
+       
         {
           title: 'title',
           path: '/mughal.png',
