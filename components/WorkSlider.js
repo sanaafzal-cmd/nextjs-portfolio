@@ -29,9 +29,10 @@ const workSlides = {
     {
       images: [
         {
+        
           title: 'title',
-          path: '/greek-all.png',
-          link : 'https://greek-all.netlify.app/'
+          path: '/landing-page.png',
+          link:'https://sanaafzal-cmd.github.io/app-landing-page/'
         },
         {
           title: 'title',
@@ -45,8 +46,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/landing-page.png',
-          link:'https://sanaafzal-cmd.github.io/app-landing-page/'
+          path: '/greek-all.png',
+          link : 'https://greek-all.netlify.app/',
         },
       ],
     },
