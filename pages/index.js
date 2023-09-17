@@ -39,13 +39,13 @@ const Home = () => {
         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> <br />
+        exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> UI/UX <span className='text-accent'>Designer</span> <br />
          </motion.h1>
 <motion.p variants={fadeIn('down', 0.1)}
         initial='hidden'
         animate='show'
         exit='hidden' className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-12 text-xl'>I bring designs to Life !</motion.p>
-       
+
         {/* button */}
         <div className='flex justify-center xl:hidden relative'>
         <ProjectsBtn />

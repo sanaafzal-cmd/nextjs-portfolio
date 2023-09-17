@@ -1,17 +1,17 @@
 //  links
 import {HiHome, HiUser, HiRectangleGroup, HiViewColumns, HiChatBubbleBottomCenterText, HiEnvelope} from 'react-icons/hi2'
 export const navData = [
-  { name: 'home', path: '/', icon: <HiHome /> },
-  { name: 'about', path: '/about', icon: <HiUser /> },
-  { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
-  { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'Home', path: '/', icon: <HiHome /> },
+  { name: 'About', path: '/about', icon: <HiUser /> },
+  { name: 'Services', path: '/services', icon: <HiRectangleGroup /> },
+  { name: 'Work', path: '/work', icon: <HiViewColumns /> },
   {
-    name: 'testimonials',
+    name: 'Testimonial',
     path: '/testimonials',
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: 'contact',
+    name: 'Contact',
     path: '/contact',
     icon: <HiEnvelope />,
   },
@@ -23,6 +23,9 @@ import Link from 'next/link'
 //next router
 import {useRouter} from 'next/router'
 const Nav = () => {
+  const styles = {
+    fontSize : '10px',
+  }
   const router = useRouter();
   const pathname = router.pathname;
   return <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen'>
@@ -44,8 +47,11 @@ const Nav = () => {
           </div>
 
 {/* Icons */}
-          <div>
+          <div className='flex flex-col justify-center items-center'>
           {link.icon}
+          <div style={styles}>
+          {link.name}
+          </div>
           </div>
           </Link>
 
