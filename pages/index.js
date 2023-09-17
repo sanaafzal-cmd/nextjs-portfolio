@@ -39,8 +39,14 @@ const Home = () => {
         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> UI/UX <span className='text-accent'>Designer</span> <br />
+        exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> <br />
          </motion.h1>
+         <motion.h1 variants={fadeIn('down', 0.2)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'  className='h1'>UI/UX <span className='text-accent'>Designer</span> <br />
+         </motion.h1>
+
 <motion.p variants={fadeIn('down', 0.1)}
         initial='hidden'
         animate='show'
