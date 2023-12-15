@@ -25,6 +25,14 @@ import Image from 'next/image'
 // testimonial data
 const testimonialData = [
   {
+    image: '/t-avt-2.png',
+    name: 'Paulo Vitor',
+    position: 'Customer',
+    message:
+      '"Incredible prefessional, does everything with great quality."',
+
+  },
+  {
     image: '/t-avt-1.png',
     name: 'Jackie Whetzel',
     position: 'Customer',
