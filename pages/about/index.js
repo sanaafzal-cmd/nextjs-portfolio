@@ -28,7 +28,7 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "HTML5, CSS3",
+        title: "HTML5, CSS3, Bootstrap",
         // icons: [
         //   <FaHtml5 />,
         //   <FaCss3 />,
@@ -40,14 +40,14 @@ const aboutData = [
         // ],
       },
       {
-        title: "Javascript, Jquery",
+        title: "Javascript, Jquery, Tailwind CSS",
         // icon: <FaCss3 />
       },
       {
         title: "React JS, Next JS",
       },
       {
-        title: "Laravel",
+        title: "Figma, Adobe XD, Adobe Illustrator",
       },
      
       {
@@ -169,7 +169,7 @@ const About = () => {
               exit="hidden"
               className="max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
             >
-              2 years ago, I began freelancing as a front-end web developer. Since then, I &apos;ve
+              3 years ago, I began freelancing as a front-end web developer. Since then, I &apos;ve
               done remote work for agencies, consulted for startups, and
               colaborated on digital products for business and consumer use.
             </motion.p>
@@ -185,7 +185,7 @@ const About = () => {
                 {/* experience */}
                 <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                    <CountUp start={0} end={5} duration={5}>
+                    <CountUp start={0} end={3} duration={5}>
                       {" "}
                     </CountUp>
                   </div>

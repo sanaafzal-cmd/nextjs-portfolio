@@ -54,7 +54,7 @@ const Nav = () => {
 {/* Icons */}
           <div className='flex flex-col justify-center items-center'>
           {link.icon}
-          <div style={styles}>
+          <div style={styles} className='hidden lg:hidden sm:block'>
           {link.name}
           </div>
           </div>
