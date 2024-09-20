@@ -36,16 +36,19 @@ const Home = () => {
         </motion.p>
         
         {/* title */}
-        <motion.h1 variants={fadeIn('down', 0.2)}
+       
+
+         <motion.h1 variants={fadeIn('down', 0.2)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'  className='h1'>UI UX <span className='text-accent'>Designer</span> <br />
+         </motion.h1> 
+
+         <motion.h1 variants={fadeIn('down', 0.2)}
         initial='hidden'
         animate='show'
         exit='hidden'  className='h1'>Front End <span className='text-accent'>Web Developer</span> <br />
          </motion.h1>
-         {/* <motion.h1 variants={fadeIn('down', 0.2)}
-        initial='hidden'
-        animate='show'
-        exit='hidden'  className='h1'>UI <span className='text-accent'>Designer</span> <br />
-         </motion.h1> */}
 
 <motion.p variants={fadeIn('down', 0.1)}
         initial='hidden'
@@ -78,7 +81,7 @@ const Home = () => {
         transition={{duration:1, ease: 'easeInOut'}}
        className='border-solid rounded-full w-full h-full max-w-[400px] max-h-[400px] absolute lg:bottom-20 lg:right-[15%]'>
     
-      <Avatar />
+     
     </motion.div>
    
     </div>
